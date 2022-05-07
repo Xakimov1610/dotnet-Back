@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/bin/Debug/net6.0/ExtantionTask
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/bin/Debug/net6.0/ExtantionTask.deps.json
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/bin/Debug/net6.0/ExtantionTask.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/bin/Debug/net6.0/ExtantionTask.dll
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/bin/Debug/net6.0/ExtantionTask.pdb
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.dll
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/refint/ExtantionTask.dll
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.pdb
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ExtantionTask.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/ExtantionTask/obj/Debug/net6.0/ref/ExtantionTask.dll

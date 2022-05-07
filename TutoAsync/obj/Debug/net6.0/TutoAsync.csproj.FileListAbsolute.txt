@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/bin/Debug/net6.0/TutoAsync
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/bin/Debug/net6.0/TutoAsync.deps.json
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/bin/Debug/net6.0/TutoAsync.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/bin/Debug/net6.0/TutoAsync.dll
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/bin/Debug/net6.0/TutoAsync.pdb
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.dll
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/refint/TutoAsync.dll
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.pdb
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/TutoAsync.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/TutoAsync/obj/Debug/net6.0/ref/TutoAsync.dll

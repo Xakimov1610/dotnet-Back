@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/bin/Debug/net6.0/asyncronus1
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/bin/Debug/net6.0/asyncronus1.deps.json
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/bin/Debug/net6.0/asyncronus1.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/bin/Debug/net6.0/asyncronus1.dll
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/bin/Debug/net6.0/asyncronus1.pdb
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.dll
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/refint/asyncronus1.dll
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.pdb
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/asyncronus1.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/asyncronus1/obj/Debug/net6.0/ref/asyncronus1.dll

@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/Predicate/bin/Debug/net6.0/Predicate
+/Users/xakimov/Dev/dotnet-backend/Predicate/bin/Debug/net6.0/Predicate.deps.json
+/Users/xakimov/Dev/dotnet-backend/Predicate/bin/Debug/net6.0/Predicate.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/Predicate/bin/Debug/net6.0/Predicate.dll
+/Users/xakimov/Dev/dotnet-backend/Predicate/bin/Debug/net6.0/Predicate.pdb
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.dll
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/refint/Predicate.dll
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.pdb
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/Predicate.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/Predicate/obj/Debug/net6.0/ref/Predicate.dll

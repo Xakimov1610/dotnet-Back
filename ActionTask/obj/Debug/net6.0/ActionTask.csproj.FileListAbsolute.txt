@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/ActionTask/bin/Debug/net6.0/ActionTask
+/Users/xakimov/Dev/dotnet-backend/ActionTask/bin/Debug/net6.0/ActionTask.deps.json
+/Users/xakimov/Dev/dotnet-backend/ActionTask/bin/Debug/net6.0/ActionTask.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/ActionTask/bin/Debug/net6.0/ActionTask.dll
+/Users/xakimov/Dev/dotnet-backend/ActionTask/bin/Debug/net6.0/ActionTask.pdb
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.dll
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/refint/ActionTask.dll
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.pdb
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ActionTask.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/ActionTask/obj/Debug/net6.0/ref/ActionTask.dll
