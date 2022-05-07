@@ -4,6 +4,8 @@ public class Program
     public static void Main(string[] args)
     {
         var yoshlar = new int[] {16,21,13,41,15,27,23};
+
+        var yosh = new List<int>();
         
         yoshlar.KottaBollar(KattaBola)
             .ToList()
@@ -14,4 +16,6 @@ public class Program
     {
         return age > 18;
     }
+
+
 }
