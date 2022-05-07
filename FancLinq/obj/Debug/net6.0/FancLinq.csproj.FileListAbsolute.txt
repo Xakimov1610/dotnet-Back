@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/FancLinq/bin/Debug/net6.0/FancLinq
+/Users/xakimov/Dev/dotnet-backend/FancLinq/bin/Debug/net6.0/FancLinq.deps.json
+/Users/xakimov/Dev/dotnet-backend/FancLinq/bin/Debug/net6.0/FancLinq.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/FancLinq/bin/Debug/net6.0/FancLinq.dll
+/Users/xakimov/Dev/dotnet-backend/FancLinq/bin/Debug/net6.0/FancLinq.pdb
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.dll
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/refint/FancLinq.dll
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.pdb
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/FancLinq.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/FancLinq/obj/Debug/net6.0/ref/FancLinq.dll
