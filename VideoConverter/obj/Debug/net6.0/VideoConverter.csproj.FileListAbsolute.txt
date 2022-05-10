@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/bin/Debug/net6.0/VideoConverter
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/bin/Debug/net6.0/VideoConverter.deps.json
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/bin/Debug/net6.0/VideoConverter.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/bin/Debug/net6.0/VideoConverter.dll
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/bin/Debug/net6.0/VideoConverter.pdb
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.dll
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/refint/VideoConverter.dll
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.pdb
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/VideoConverter.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/VideoConverter/obj/Debug/net6.0/ref/VideoConverter.dll
