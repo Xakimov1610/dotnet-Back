@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/Events/bin/Debug/net6.0/Events
+/Users/xakimov/Dev/dotnet-backend/Events/bin/Debug/net6.0/Events.deps.json
+/Users/xakimov/Dev/dotnet-backend/Events/bin/Debug/net6.0/Events.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/Events/bin/Debug/net6.0/Events.dll
+/Users/xakimov/Dev/dotnet-backend/Events/bin/Debug/net6.0/Events.pdb
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.dll
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/refint/Events.dll
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.pdb
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/Events.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/Events/obj/Debug/net6.0/ref/Events.dll
