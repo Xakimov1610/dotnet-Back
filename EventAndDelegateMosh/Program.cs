@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace EventAndDelegateMosh;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        var video = new Video() { Title = "Video 1" };
+        var videoEncoder = new VideoEncoder();     // Publisher
+        var mailService = new MailService();       // Subscriber
+        var messageService = new MessageService(); // Subscriber
+
+        videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
+
+        videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
+
+        videoEncoder.Encode(video);
+    }
+}
+
+
