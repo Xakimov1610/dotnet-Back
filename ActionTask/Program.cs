@@ -9,9 +9,11 @@ public class Program
 
         sonlar.Print(System.Console.WriteLine);
         
-
+        
         var sonlarString = new [] {"1","2","3","4"};
 
         sonlarString.PrintF(File.WriteAllText);
+
+       
     }
 }

@@ -11,10 +11,6 @@ void HandleOnAlarmEvent(object sender, AlarmEventArgs e)
     System.Console.WriteLine($"Message : {e.Message}");
 }
 
-
-
-
-
 // void HandleOnAlarmEvent()
 // {
 // }

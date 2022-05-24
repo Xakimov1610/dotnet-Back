@@ -1,0 +1,15 @@
+/Users/xakimov/Dev/dotnet-backend/Lambda/bin/Debug/net6.0/Lambda
+/Users/xakimov/Dev/dotnet-backend/Lambda/bin/Debug/net6.0/Lambda.deps.json
+/Users/xakimov/Dev/dotnet-backend/Lambda/bin/Debug/net6.0/Lambda.runtimeconfig.json
+/Users/xakimov/Dev/dotnet-backend/Lambda/bin/Debug/net6.0/Lambda.dll
+/Users/xakimov/Dev/dotnet-backend/Lambda/bin/Debug/net6.0/Lambda.pdb
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.csproj.AssemblyReference.cache
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.AssemblyInfoInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.AssemblyInfo.cs
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.csproj.CoreCompileInputs.cache
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.dll
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/refint/Lambda.dll
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.pdb
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/Lambda.genruntimeconfig.cache
+/Users/xakimov/Dev/dotnet-backend/Lambda/obj/Debug/net6.0/ref/Lambda.dll

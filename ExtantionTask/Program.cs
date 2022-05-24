@@ -1,5 +1,4 @@
-﻿using System.Runtime.ConstrainedExecution;
-public static class MyExtensions
+﻿public static class MyExtensions
 {
     public static int Reverse(this int num)
     {
@@ -18,11 +17,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        System.Console.WriteLine("Ener");
-        // int a = int.Parse(Console.ReadLine());
-        int a = -12345;
-        
-       
+        int a = 1534236469;
+
         System.Console.WriteLine(a.Reverse());
     }
 }

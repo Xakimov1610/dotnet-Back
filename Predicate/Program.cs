@@ -17,5 +17,10 @@ public class Program
         return age > 18;
     }
 
+    public static bool ToqYokiJuft(int num)
+    {
+        return num % 2 != 0;
+    }
+
 
 }
