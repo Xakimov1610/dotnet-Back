@@ -13,5 +13,10 @@ public class StudentServices
 
     public List<Student> GetAllStudents() => Students;
 
+    public Student GetStudentById(int id) => Students.FirstOrDefault(x => x.Id == id);
+   
+    public Student GetStudentByAge(int age) => Students.FirstOrDefault(x => x.Age == age);
+
+
     
 }
