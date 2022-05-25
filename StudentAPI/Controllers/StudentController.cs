@@ -31,7 +31,7 @@ public class StudentContorller : ControllerBase
         }
     }
 
-    [HttpGet, Route("/Student/{id}")]
+    [HttpGet, Route("/Student/id")]
     public IActionResult GetById(int id)
     {
         try
@@ -45,12 +45,26 @@ public class StudentContorller : ControllerBase
         }
     }
 
-    [HttpGet, Route("/Student/{id}")]
+    [HttpGet, Route("/Student/age")]
     public IActionResult GetByAge(int age)
     {
         try
         {
-            return Ok(_student.GetStudentById(age));
+            return Ok(_student.GetStudentByAge(age));
+        }
+        catch(Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest(e.Message);
+        }
+    }
+
+    [HttpPost, Route("/Student/Add")]
+    public IActionResult Post([FromForm]Student std)
+    {
+        try
+        {
+            return Ok(_student.Add(std));
         }
         catch(Exception e)
         {
