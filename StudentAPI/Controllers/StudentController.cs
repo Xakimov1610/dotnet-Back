@@ -72,4 +72,32 @@ public class StudentContorller : ControllerBase
             return BadRequest(e.Message);
         }
     }
+
+    [HttpPut("{value}")]
+    public IActionResult Put([FromForm]Student std)
+    {
+        try
+        {
+            return Ok(_student.Update(std));
+        }
+        catch(Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest(e.Message);
+        }
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        try
+        {
+            return Ok(_student.Delete(id));
+        }
+        catch(Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest(e.Message);
+        }
+    }
 }

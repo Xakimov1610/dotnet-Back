@@ -23,6 +23,25 @@ public class StudentServices
         return Students.FirstOrDefault(x => x.Id == std.Id);
     }
 
-
-    
+    public Student Update(Student std)
+    {
+        var student = Students.FirstOrDefault(x => x.Id == std.Id);
+        if(student != null)
+        {
+            student.Name = std.Name;
+            student.LastName = std.LastName;
+            student.Age = std.Age;
+        }
+        return student;
+    }
+    public Student Delete(int id)
+    {
+        var student = Students.FirstOrDefault(x => x.Id == id);
+        if(student != null)
+        {
+            Students.Remove(student);
+        }
+        return student;
+    }
+    public bool Exists (int id) => Students.Any(x => x.Id == id);
 }
