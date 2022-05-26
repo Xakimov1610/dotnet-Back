@@ -40,4 +40,5 @@ public class TeacherService
     }
 
     public bool Exists(Guid id) => Teachers.Any(s => s.Id == id);
+
 }

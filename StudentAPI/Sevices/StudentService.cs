@@ -41,4 +41,6 @@ public class StudentService
     }
 
     public bool Exists(Guid id) => Students.Any(s => s.Id == id);
+
+    public List<Student> GetAllStudentByTeacherId(Guid id) => Students.Where(s => s.TeacherId == id).ToList();
 }

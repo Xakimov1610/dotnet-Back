@@ -71,4 +71,20 @@ public class StudentController : ControllerBase
         _studentService.DeleteStudent(id);
         return Ok("Student is deleted");
     }
+
+    [HttpGet("/getstudentbyteacher/{id}")]
+    public IActionResult GetAllStudentsByTeacherId(Guid id)
+    {
+        if(!_studentService.Exists(id)) return BadRequest($"Doesn't exist student with {id} Teacher id");
+        
+        try
+        {
+            return Ok(_studentService.GetAllStudentByTeacherId(id));
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest(e.Message);
+        }
+    }
 }
