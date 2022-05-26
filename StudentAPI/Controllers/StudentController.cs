@@ -1,103 +1,74 @@
 using Microsoft.AspNetCore.Mvc;
-using StudentAPI.Services;
+using StudentApi.Entities;
+using StudentApi.Models;
+using StudentApi.Services;
 
-namespace StudentAPI.Controllers;
-
+namespace StudentApi.Controllers;
 [ApiController]
-[Route("[controller]")]
-public class StudentContorller : ControllerBase
+[Route("api/[controller]")]
+public class StudentController : ControllerBase
 {
-    private readonly ILogger<StudentServices> _logger;
-    private readonly StudentServices _student;
+    private readonly ILogger<StudentController> _logger;
+    private readonly StudentService _studentService;
 
-    public StudentContorller(ILogger<StudentServices> logger, StudentServices student)
+    public StudentController(ILogger<StudentController> logger, StudentService studentService)
     {
         _logger = logger;
-        _student = student;
-
+        _studentService = studentService;
     }
 
-    [HttpGet, Route("/Students/GetAll")]
-    public IActionResult GetStudents()
+    [HttpGet("/getstudent/{id}")]
+    public IActionResult GetById(Guid id)
+    {
+        if(!_studentService.Exists(id)) return BadRequest($"Doesn't exist student with {id} id");
+
+        return Ok(_studentService.Get(id));
+    }
+
+    [HttpGet("/students")]
+    public IActionResult GetAll()
     {
         try
         {
-            return Ok(_student.GetAllStudents());
+            return Ok(_studentService.GetAll());
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             _logger.LogError(e.Message);
             return BadRequest(e.Message);
         }
     }
 
-    [HttpGet, Route("/Student/id")]
-    public IActionResult GetById(int id)
+    [HttpPost("/addstudent")]
+    public IActionResult AddStudent([FromForm]NewStudent newStudent)
     {
         try
         {
-            return Ok(_student.GetStudentById(id));
+            _studentService.AddStudent(newStudent);
+            return Ok("Student is added");
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             _logger.LogError(e.Message);
-            return BadRequest(e.Message);
+            return BadRequest("Student isn't added");
         }
     }
 
-    [HttpGet, Route("/Student/age")]
-    public IActionResult GetByAge(int age)
+    [HttpPut("/updatestudent")]
+    public IActionResult UpdateStudent([FromForm]Student st)
     {
-        try
-        {
-            return Ok(_student.GetStudentByAge(age));
-        }
-        catch(Exception e)
-        {
-            _logger.LogError(e.Message);
-            return BadRequest(e.Message);
-        }
+        if(!_studentService.Exists(st.Id)) return BadRequest($"Doesn't exist student with {st.Id} id");
+
+        _studentService.Update(st);
+        return Ok("Student is updated");
     }
 
-    [HttpPost, Route("/Student/Add")]
-    public IActionResult Post([FromForm]Student std)
+    [HttpDelete("/deletestudent")]
+    public IActionResult DeleteStudent(Guid id)
     {
-        try
-        {
-            return Ok(_student.Add(std));
-        }
-        catch(Exception e)
-        {
-            _logger.LogError(e.Message);
-            return BadRequest(e.Message);
-        }
-    }
+        if(!_studentService.Exists(id)) return BadRequest($"Doesn't exist student with {id} id");
 
-    [HttpPut("{value}")]
-    public IActionResult Put([FromForm]Student std)
-    {
-        try
-        {
-            return Ok(_student.Update(std));
-        }
-        catch(Exception e)
-        {
-            _logger.LogError(e.Message);
-            return BadRequest(e.Message);
-        }
-    }
-
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        try
-        {
-            return Ok(_student.Delete(id));
-        }
-        catch(Exception e)
-        {
-            _logger.LogError(e.Message);
-            return BadRequest(e.Message);
-        }
+        _studentService.DeleteStudent(id);
+        return Ok("Student is deleted");
     }
 }

@@ -1,47 +1,44 @@
-namespace StudentAPI.Services;
+using StudentApi.Entities;
+using StudentApi.Models;
 
-public class StudentServices
+namespace StudentApi.Services;
+public class StudentService
 {
-    private readonly ILogger<StudentServices> _logger;
+    private readonly ILogger<StudentService> _logger;
+    public List<Student> Students { get; set; } = new() {new(){Id = Guid.NewGuid(), FirstName = "Shukhrat", LastName = "Utaboev", Age = 21, TeacherId = new("ff8adbc3-7022-4100-be0f-648c5d22d7d6")}};
 
-    public List<Student> Students {get; set; } = new () 
-        {new Student() { Id = 1, Name = "Ali", LastName = "Valiyev", Age = 23}, new Student() { Id = 2, Name = "Xoshim", LastName = "Toshiyev", Age = 44}};
-    public StudentServices(ILogger<StudentServices> logger)
+    public StudentService(ILogger<StudentService> logger)
     {
         _logger = logger;
     }
+    public List<Student> GetAll() => Students;
 
-    public List<Student> GetAllStudents() => Students;
-
-    public Student GetStudentById(int id) => Students.FirstOrDefault(x => x.Id == id);
-   
-    public Student GetStudentByAge(int age) => Students.FirstOrDefault(x => x.Age == age);
-
-    public Student Add(Student std)
+    public Student Get(Guid id) => Students.FirstOrDefault(s => s.Id == id);
+    public void AddStudent(NewStudent newStudent)
     {
-        Students.Add(std);
-        return Students.FirstOrDefault(x => x.Id == std.Id);
+        var st = new Student() {
+            Id = Guid.NewGuid(),
+            FirstName = newStudent.FirstName,
+            LastName = newStudent.LastName,
+            Age = newStudent.Age,
+            TeacherId = newStudent.TeacherId
+        };
+        Students.Add(st);
     }
 
-    public Student Update(Student std)
+    public void DeleteStudent(Guid id)
     {
-        var student = Students.FirstOrDefault(x => x.Id == std.Id);
-        if(student != null)
-        {
-            student.Name = std.Name;
-            student.LastName = std.LastName;
-            student.Age = std.Age;
-        }
-        return student;
+        var student = Students.FirstOrDefault(s => s.Id == id);
+        Students.Remove(student);
     }
-    public Student Delete(int id)
+
+    public void Update(Student student)
     {
-        var student = Students.FirstOrDefault(x => x.Id == id);
-        if(student != null)
-        {
-            Students.Remove(student);
-        }
-        return student;
+        var oldStudent = Students.FirstOrDefault(s => s.Id == student.Id);
+        oldStudent.Age = student.Age;
+        oldStudent.FirstName = student.FirstName;
+        oldStudent.LastName = student.LastName;
     }
-    public bool Exists (int id) => Students.Any(x => x.Id == id);
+
+    public bool Exists(Guid id) => Students.Any(s => s.Id == id);
 }

@@ -1,4 +1,4 @@
-using StudentAPI.Services;
+using StudentApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<StudentServices>();
+builder.Services.AddSingleton<StudentService>();
+builder.Services.AddSingleton<TeacherService>();
 
 var app = builder.Build();
 
