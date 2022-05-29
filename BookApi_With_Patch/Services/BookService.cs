@@ -20,22 +20,31 @@ public class BookService : IBookService
         await _context.SaveChangesAsync();
     }
 
-    public Task DeleteAsync(Guid id)
+    public async Task DeleteAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var book = await GetByIdAsync(id);
+        if (book == null)
+        {
+            _logger.LogWarning("Book with id {id} not found", id);
+            return;
+        }
+        _context.Books.Remove(book);
+        await _context.SaveChangesAsync();
     }
 
     public async Task<List<Book>> GetAllAsync()
         => await _context.Books.ToListAsync();
 
     public Task<Book> GetByIdAsync(Guid id)
-    {
-        throw new NotImplementedException();
-    }
+        => _context.Books.FirstOrDefaultAsync(b => b.Id == id);
 
-    public Task<Book> UpdateAsync(Book bookToUpdate)
+    public async Task<Book> UpdateAsync(Book bookToUpdate)
     {
-        throw new NotImplementedException();
+        var book = await GetByIdAsync(bookToUpdate.Id);
+        book.Name = bookToUpdate.Name;
+        book.Title = bookToUpdate.Title;
+        await _context.SaveChangesAsync();
+        
     }
 
     Task IBookService.UpdateAsync(Book bookToUpdate)
