@@ -9,8 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<BookDbContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-},ServiceLifetime.Singleton);
+    options.UseSqlite(builder.Configuration.GetConnectionString("SQLiteConnection"));
+});
 
 builder.Services.AddScoped<IBookService, BookService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

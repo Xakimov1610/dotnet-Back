@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "+EEjy1Dy6CILne2y9pi79hzGz2c8zQarj6fVtrbS/F1gKzQclVGHUXvgAB6rpH9/2hXUZ2zEyy7Bq6toTs5/HQ==",
+  "dgSpecHash": "o15hsDfoed52Xqpph0vUMS/WgmcFE0WqDz61bigaEW6QuaoUYpyKwiZAM327evpdANOOU4bzTBjy2p93PXzxbQ==",
   "success": true,
   "projectFilePath": "/Users/xakimov/Dev/dotnet-backend/BookApi_With_Patch/BookApi_With_Patch.csproj",
   "expectedPackageFiles": [
+    "/Users/xakimov/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.data.sqlite.core/6.0.5/microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.5/microsoft.entityframeworkcore.sqlite.6.0.5.nupkg.sha512",
     "/Users/xakimov/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.5/microsoft.entityframeworkcore.sqlite.core.6.0.5.nupkg.sha512",

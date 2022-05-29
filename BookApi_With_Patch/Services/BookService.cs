@@ -44,7 +44,7 @@ public class BookService : IBookService
         book.Name = bookToUpdate.Name;
         book.Title = bookToUpdate.Title;
         await _context.SaveChangesAsync();
-        
+        return book;
     }
 
     Task IBookService.UpdateAsync(Book bookToUpdate)

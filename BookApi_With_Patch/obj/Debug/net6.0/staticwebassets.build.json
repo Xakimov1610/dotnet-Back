@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FxUdKJuXaP4m8UgRovMzcvgn1jsmc68HsB4hg0TjIX0=",
+  "Source": "BookApi_With_Patch",
+  "BasePath": "_content/BookApi_With_Patch",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
